@@ -16,13 +16,13 @@
 Для выполнения этого задания нужно сгенирировать SSH-ключ командой ssh-keygen. Добавить в конфигурацию Terraform ключ в поле:
 
 
-![Console](https://github.com/hovhannisyan-code/7-1-part-2-ansible-hw/blob/master/img/screenshot_0.png)
-![Yandex Cloud](https://github.com/hovhannisyan-code/7-1-part-2-ansible-hw/blob/master/img/screenshot_1.png)
-![Ansible Ping](https://github.com/hovhannisyan-code/7-1-part-2-ansible-hw/blob/master/img/screenshot_2.png)
+![Console](https://github.com/hovhannisyan-code/7-3-terraform/blob/master/img/screenshot_0.png)
+![Yandex Cloud](https://github.com/hovhannisyan-code/7-3-terraform/blob/master/img/screenshot_1.png)
+![Ansible Ping](https://github.com/hovhannisyan-code/7-3-terraform/blob/master/img/screenshot_2.png)
 
 ### Install nginx 
 ```bash
 ansible-playbook -i hosts install-nginx.yml 
 ```
-[Playbook](https://github.com/hovhannisyan-code/7-1-part-2-ansible-hw/blob/master/install-nginx.yml)
-![Ansible Nginx](https://github.com/hovhannisyan-code/7-1-part-2-ansible-hw/blob/master/img/screenshot_3.png)
+[Playbook](https://github.com/hovhannisyan-code/7-3-terraform/blob/master/install-nginx.yml)
+![Ansible Nginx](https://github.com/hovhannisyan-code/7-3-terraform/blob/master/img/screenshot_3.png)
